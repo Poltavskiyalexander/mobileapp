@@ -1,0 +1,15 @@
+// Импортируем базовые файлы
+@import 'base/variables';
+@import 'base/functions';
+@import 'base/mixins';
+@import 'base/helpers';
+@import 'base/normalize';
+
+// Импортируем компоненты
+@import 'components/btn';
+
+// Импортируем слои документа
+@import 'layout/common';
+// @import 'layout/footer';
+@import 'layout/header';
+@import 'layout/banner';
