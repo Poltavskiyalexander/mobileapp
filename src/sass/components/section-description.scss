@@ -1,0 +1,33 @@
+.section-discription {
+  padding-top: 60px;
+  // background-color: color(contact-btn-fb-color);
+  //   font-family: $secondary-font-stack;
+  //   font-weight: $bold-font-size;
+  //   font-size: $headings-size;
+  &__heading {
+    font-family: $secondary-font-stack;
+    font-weight: $bold-font-size;
+    font-size: $headings-size;
+    text-align: center;
+    text-transform: uppercase;
+    color: color(secondary);
+    padding-bottom: 35px;
+    &::after,
+    &::before {
+      @include pseudo;
+      background-color: color(pseudo-element-line);
+      width: 60px;
+      height: 1px;
+      margin-bottom: 7px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  &__paragraph {
+    font-family: $primary-font-stack;
+    font-weight: $regular-font-size;
+    font-size: $paragraph-size;
+    text-align: center;
+    color: color(primary-text);
+  }
+}
