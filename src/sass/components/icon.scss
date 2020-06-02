@@ -4,7 +4,7 @@
   }
 
   &__discription {
-    flex: 0 0 320px;
+    flex: 0 0 290px;
     // margin-bottom: 80px;
     padding-left: 60px;
     padding-top: 40px;
@@ -17,6 +17,7 @@
     font-weight: $bold-font-size;
     font-size: $headings-size;
     color: color(primary-text);
+    padding-bottom: 20px;
   }
 
   &__paragraph {
@@ -38,10 +39,10 @@
     }
 
     &--board::before {
-      background-image: url('../images/icon-board.svg');
+      background-image: url('../../images/icon-board.svg');
     }
     &--web::before {
-      background-image: url('../images/icon-hub.svg');
+      background-image: url('../../images/icon-hub.svg');
     }
     &--tv::before {
       background-image: url('../images/icon-thumb.svg');
