@@ -1,0 +1,59 @@
+.icon {
+  &__list {
+    @include between-flex($type: 'all');
+  }
+
+  &__discription {
+    flex: 0 0 320px;
+    // margin-bottom: 80px;
+    padding-left: 60px;
+    padding-top: 40px;
+    position: relative;
+    text-align: left;
+  }
+
+  &__heading {
+    font-family: $primary-font-stack;
+    font-weight: $bold-font-size;
+    font-size: $headings-size;
+    color: color(primary-text);
+  }
+
+  &__paragraph {
+    font-family: $secondary-font-stack;
+    font-weight: $regular-font-size;
+    font-size: $discription-size;
+    color: color(primary-text);
+  }
+
+  &__key {
+    &::before {
+      @include pseudo;
+      @include icon;
+      height: 32px;
+      width: 32px;
+      position: absolute;
+      left: 0px;
+      top: 20px;
+    }
+
+    &--board::before {
+      background-image: url('../images/icon-board.svg');
+    }
+    &--web::before {
+      background-image: url('../images/icon-hub.svg');
+    }
+    &--tv::before {
+      background-image: url('../images/icon-thumb.svg');
+    }
+    &--seo::before {
+      background-image: url('../images/icon-star.svg');
+    }
+    &--cs::before {
+      background-image: url('../images/icon-bell.svg');
+    }
+    &--dig::before {
+      background-image: url('../images/icon-share.svg');
+    }
+  }
+}

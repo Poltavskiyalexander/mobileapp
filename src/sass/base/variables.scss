@@ -16,13 +16,13 @@ $colors: (
     // video-foto-line-next-color: #666666,
     bg-icon-team: #000000,
   foto-name: #062033,
-  // foto-professional-transparency: rgba(6, 32, 51, 0.561),
-    $contact-btn-bg-color: #31d4e7,
-  $contact-btn-fb-color: #3b5997,
-  $contact-btn-tw-color: #3ec2f3,
-  $contact-btn-in-color: #007ab9,
-  $contact-info-color: #bface2,
-  $contact-form-color: #c1c1c1,
+  foto-professional-transparency: rgba(6, 32, 51, 0.561),
+  contact-btn-bg-color: #31d4e7,
+  contact-btn-fb-color: #3b5997,
+  contact-btn-tw-color: #3ec2f3,
+  contact-btn-in-color: #007ab9,
+  contact-info-color: #bface2,
+  contact-form-color: #c1c1c1,
 );
 
 //media
@@ -41,3 +41,59 @@ $secondary-font-stack: 'Raleway';
 $regular-font-size: 400;
 $semibold-font-size: 600;
 $bold-font-size: 700;
+
+// Font size
+$headings-size: 18px;
+$paragraph-size: 16px;
+$discription-size: 13px;
+
+.hover_overlay {
+  background-color: #0eb493;
+  opacity: 0.851;
+  position: absolute;
+  left: 25px;
+  top: 2688px;
+  width: 270px;
+  height: 300px;
+  z-index: 103;
+}
+
+// .Our_Team {
+//   font-size: 28px;
+//   font-family: "Raleway";
+//   color: #0eb493;
+//   font-weight: bold;
+//   text-transform: uppercase;
+//   line-height: 1.2;
+//   text-align: center;
+//   position: absolute;
+//   left: 313.938px;
+//   top: 2647.2px;
+//   z-index: 110;
+// }
+// .Our_Team {
+//   font-size: 28px;
+//   font-family: "Raleway";
+//   color: #0eb493;
+//   font-weight: bold;
+//   text-transform: uppercase;
+//   line-height: 1.2;
+//   text-align: center;
+//   position: absolute;
+//   left: 313.938px;
+//   top: 2647.2px;
+//   z-index: 110;
+// }
+// .OUR_TEAM {
+//   font-size: 18px;
+//   font-family: "Raleway";
+//   color: #1ab798;
+//   font-weight: bold;
+//   line-height: 2;
+//   text-align: center;
+//   position: absolute;
+//   left: 113.844px;
+//   top: 2428.5px;
+//   z-index: 94;
+// }
+
