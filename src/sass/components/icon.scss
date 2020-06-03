@@ -1,6 +1,13 @@
 .icon {
   &__list {
     @include between-flex($type: 'all');
+    @media (min-width: 1200px) {
+      background-image: url(../images/foto/screen-min.png);
+      @include icon;
+      background-position: center;
+      margin-top: 80px;
+      height: 790px;
+    }
   }
 
   &__discription {
@@ -10,6 +17,13 @@
     padding-top: 40px;
     position: relative;
     text-align: left;
+
+    @media (min-width: 1200px) {
+      // flex: 0 0 300px;
+      &:nth-child(odd) {
+        margin-right: 200px;
+      }
+    }
   }
 
   &__heading {
@@ -25,6 +39,10 @@
     font-weight: $regular-font-size;
     font-size: $discription-size;
     color: color(primary-text);
+
+    // @media (min-width: 768px) {
+    //   width: 280px;
+    // }
   }
 
   &__key {
@@ -35,26 +53,26 @@
       width: 32px;
       position: absolute;
       left: 0px;
-      top: 20px;
+      // top: 30px;
     }
 
     &--board::before {
-      background-image: url('../../images/icon-board.svg');
+      background-image: url('../images/icon-png/i-board.png');
     }
-    &--web::before {
-      background-image: url('../../images/icon-hub.svg');
+    &--device-hub::before {
+      background-image: url('../images/icon-png/i-hub.png');
     }
-    &--tv::before {
-      background-image: url('../images/icon-thumb.svg');
+    &--thumb-up::before {
+      background-image: url('../images/icon-png/i-thumb.png');
     }
-    &--seo::before {
-      background-image: url('../images/icon-star.svg');
+    &--star::before {
+      background-image: url('../images/icon-png/i-star.png');
     }
-    &--cs::before {
-      background-image: url('../images/icon-bell.svg');
+    &--notification::before {
+      background-image: url('../images/icon-png/i-bell.png');
     }
-    &--dig::before {
-      background-image: url('../images/icon-share.svg');
+    &--share::before {
+      background-image: url('../images/icon-png/i-share.png');
     }
   }
 }
