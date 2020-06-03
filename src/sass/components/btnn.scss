@@ -1,0 +1,18 @@
+.btn {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+button[type="submit"] {
+    font-family:'Open Sans';
+    font-size: 22px;
+    font-weight: 400;
+    height: 50px;
+    width: 170px;
+    color: #fff;
+    background-color: #31d4e7;
+    border: #31d4e7;
+    border-radius: 4px;
+    text-transform: uppercase;
+
+}

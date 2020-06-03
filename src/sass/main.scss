@@ -7,10 +7,24 @@
 @import 'base/normalize';
 
 // Импортируем компоненты
-@import 'components/btn';
+@import 'components/contact.scss';
+@import 'components/bloks.scss';
+@import 'components/blok-text.scss';
+@import 'components/form.scss';
+@import 'components/forma-slaider.scss';
+@import 'components/hr.scss';
+@import 'components/icon-form.scss';
+@import 'components/icon.scss';
+@import 'components/namber.scss';
+@import 'components/video.scss';
+@import 'components/watch.scss';
+@import 'components/btnn.scss';
+@import 'components/footer.scss';
 
+  
 // Импортируем слои документа
 @import 'layout/common';
 // @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/banner';
+ 
