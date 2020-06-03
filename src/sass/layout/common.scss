@@ -23,6 +23,7 @@ html {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 200vh;
 }
 
 ul,
@@ -38,15 +39,15 @@ ol {
 
 .container {
   max-width: $mobile-max-width-container;
-  padding: $mobile-padding-container;
+  padding: 0 $mobile-padding-container;
   margin: 0 auto;
 
   @media (min-width: 768px) {
     max-width: $tablet-max-width-container;
-    padding: $tablet-padding-container;
+    padding: 0 $tablet-padding-container;
   }
   @media (min-width: 1200px) {
     max-width: $desktop-max-width-container;
-    padding: $desktop-padding-container;
+    padding: 0 $desktop-padding-container;
   }
 }
