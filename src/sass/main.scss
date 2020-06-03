@@ -3,6 +3,7 @@
 @import 'base/functions';
 @import 'base/mixins';
 @import 'base/helpers';
+@import 'base/placeholders';
 @import 'base/fonts';
 @import 'base/normalize';
 @import 'base/pe-icon-7-stroke';
@@ -11,6 +12,10 @@
 @import 'components/btn';
 @import 'components/logo';
 @import 'components/nav__list';
+@import 'components/section-description';
+@import 'components/icon.scss';
+@import 'components/team.scss';
+@import 'components/slaider.scss';
 
 // Импортируем слои документа
 @import 'layout/common';
