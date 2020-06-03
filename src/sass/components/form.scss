@@ -1,11 +1,13 @@
-.blok-forma{
+.blok-forma {
     display: flex;
-    margin-top: 30px;
     justify-content: space-between;
 
     & *{
         z-index: 1;
     }
+}
+.blok-forma fieldset {
+    border: none;
 }
 
 .form {
