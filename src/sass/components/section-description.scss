@@ -1,5 +1,5 @@
 .section-discription {
-  padding-top: 60px;
+  padding-top: 115px;
   // background-color: color(contact-btn-fb-color);
   //   font-family: $secondary-font-stack;
   //   font-weight: $bold-font-size;
@@ -31,6 +31,15 @@
       margin-bottom: 7px;
       // margin-left: 20px;
       margin-right: 15px;
+    }
+
+    &-span {
+      font-family: $secondary-font-stack;
+      font-weight: $bold-font-size;
+      font-size: $headings-size;
+      text-align: center;
+      text-transform: uppercase;
+      color: color(secondary);
     }
     // &::after {
     //   @include pseudo;
