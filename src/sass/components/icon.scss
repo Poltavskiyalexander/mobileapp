@@ -12,14 +12,12 @@
 
   &__discription {
     flex: 0 0 290px;
-    // margin-bottom: 80px;
     padding-left: 60px;
     padding-top: 40px;
     position: relative;
     text-align: left;
 
     @media (min-width: 1200px) {
-      // flex: 0 0 300px;
       &:nth-child(odd) {
         margin-right: 200px;
       }
@@ -39,10 +37,6 @@
     font-weight: $regular-font-size;
     font-size: $discription-size;
     color: color(primary-text);
-
-    // @media (min-width: 768px) {
-    //   width: 280px;
-    // }
   }
 
   &__key {
@@ -53,7 +47,6 @@
       width: 32px;
       position: absolute;
       left: 0px;
-      // top: 30px;
     }
 
     &--board::before {
