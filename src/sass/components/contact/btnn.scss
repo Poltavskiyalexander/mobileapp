@@ -4,14 +4,14 @@
 }
 
 button[type="submit"] {
-    font-family:'Open Sans';
+    font-family: $primary-font-stack;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: $regular-font-size;
     height: 50px;
     width: 170px;
-    color: #fff;
-    background-color: #31d4e7;
-    border: #31d4e7;
+    color:color(primary);
+    background-color: color(contact-btn-bg-color);
+    border: color(contact-btn-bg-color);
     border-radius: 4px;
     text-transform: uppercase;
 
