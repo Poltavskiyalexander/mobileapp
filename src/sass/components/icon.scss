@@ -49,11 +49,11 @@
       left: 0px;
     }
 
-    &--board::before {
-      background-image: url('../images/icon-png/i-board.png');
-    }
+    // &--board::before {
+    //   background-image: url('../images/icon-svg/ic-board.svg');
+    // }
     &--device-hub::before {
-      background-image: url('../images/icon-png/i-hub.png');
+      background-image: url('../../images/icon-svg/ic-thumb.svg');
     }
     &--thumb-up::before {
       background-image: url('../images/icon-png/i-thumb.png');
