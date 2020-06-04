@@ -45,8 +45,8 @@
       &-icon {
         @include center-flex($type: 'all');
         margin-right: 4px;
-        width: 42px;
-        height: 42px;
+        width: 44px;
+        height: 44px;
         background-color: rgba(color(bg-icon-team), 0.3);
 
         &:hover {
@@ -95,4 +95,5 @@
 .icon {
   display: inline-block;
   fill: #ffffff;
+  width: 22px;
 }

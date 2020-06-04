@@ -39,33 +39,39 @@
     color: color(primary-text);
   }
 
-  &__key {
-    &::before {
-      @include pseudo;
-      @include icon;
-      height: 32px;
-      width: 32px;
-      position: absolute;
-      left: 0px;
-    }
-
-    &--board::before {
-      background-image: url('../images/icon-png/i-board.png');
-    }
-    &--device-hub::before {
-      background-image: url('../images/icon-png/i-hub.png');
-    }
-    &--thumb-up::before {
-      background-image: url('../images/icon-png/i-thumb.png');
-    }
-    &--star::before {
-      background-image: url('../images/icon-png/i-star.png');
-    }
-    &--notification::before {
-      background-image: url('../images/icon-png/i-bell.png');
-    }
-    &--share::before {
-      background-image: url('../images/icon-png/i-share.png');
-    }
+  &-key {
+    fill: color(secondary);
+    position: absolute;
+    left: 0px;
   }
+
+  // &__key {
+  //   &::before {
+  //     @include pseudo;
+  //     @include icon;
+  //     height: 32px;
+  //     width: 32px;
+  //     position: absolute;
+  //     left: 0px;
+  //   }
+
+  // &--board::before {
+  //   background-image: url('../images/icon-png/i-board.png');
+  // }
+  // &--device-hub::before {
+  //   background-image: url('../images/icon-png/i-hub.png');
+  // }
+  // &--thumb-up::before {
+  //   background-image: url('../images/icon-png/i-thumb.png');
+  // }
+  // &--star::before {
+  //   background-image: url('../images/icon-png/i-star.png');
+  // }
+  // &--notification::before {
+  //   background-image: url('../images/icon-png/i-bell.png');
+  // }
+  // &--share::before {
+  //   background-image: url('../images/icon-png/i-share.png');
+  // }
+  // }
 }
