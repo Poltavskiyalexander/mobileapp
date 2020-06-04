@@ -1,0 +1,71 @@
+.icon {
+  &__list {
+    @include between-flex($type: 'all');
+    @media (min-width: 1200px) {
+      background-image: url(../images/foto/screen-min.png);
+      @include icon;
+      background-position: center;
+      margin-top: 80px;
+      height: 790px;
+    }
+  }
+
+  &__discription {
+    flex: 0 0 290px;
+    padding-left: 60px;
+    padding-top: 40px;
+    position: relative;
+    text-align: left;
+
+    @media (min-width: 1200px) {
+      &:nth-child(odd) {
+        margin-right: 200px;
+      }
+    }
+  }
+
+  &__heading {
+    font-family: $primary-font-stack;
+    font-weight: $bold-font-size;
+    font-size: $headings-size;
+    color: color(primary-text);
+    padding-bottom: 20px;
+  }
+
+  &__paragraph {
+    font-family: $secondary-font-stack;
+    font-weight: $regular-font-size;
+    font-size: $discription-size;
+    color: color(primary-text);
+  }
+
+  &__key {
+    &::before {
+      @include pseudo;
+      @include icon;
+      height: 32px;
+      width: 32px;
+      position: absolute;
+      left: 0px;
+    }
+
+    &--board::before {
+      background-image: url('../images/icon-png/i-board.png');
+    }
+    &--device-hub::before {
+      background-image: url('../images/icon-png/i-hub.png');
+    }
+    &--thumb-up::before {
+      background-image: url('../images/icon-png/i-thumb.png');
+    }
+    &--star::before {
+      background-image: url('../images/icon-png/i-star.png');
+    }
+    &--notification::before {
+      background-image: url('../images/icon-png/i-bell.png');
+    }
+    &--share::before {
+      background-image: url('../images/icon-png/i-share.png');
+    }
+  }
+}
