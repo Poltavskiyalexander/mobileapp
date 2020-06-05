@@ -1,0 +1,16 @@
+.contact {
+    display: block;
+    padding-top: 70px;
+    z-index: 1;
+}
+.contact__titl {
+    display: flex;
+    font-family: $secondary-font-stack;
+    font-size: 28px;
+    font-weight: bold;
+    color: color(primary);
+    text-transform: uppercase;
+    justify-content: center;
+}
+ 
+ 
