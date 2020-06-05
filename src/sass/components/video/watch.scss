@@ -1,0 +1,16 @@
+.watch__titl {
+    font-family: $secondary-font-stack;
+    font-weight: $bold-font-size;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.watch__text {
+    max-width: 540px;
+    font-family:$primary-font-stack;
+    font-weight: $regular-font-size;
+    font-size: 16px;
+    color: color(primary);
+    margin-bottom: 30px;
+}

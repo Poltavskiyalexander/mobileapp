@@ -1,2 +1,11 @@
-.footer {
+footer{
+    position: absolute;
+}
+.footer__text {     
+    font-family:'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #838383;
+    margin: -40px 0px;
+    margin-left: 110px;
 }
