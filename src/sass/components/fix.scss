@@ -1,0 +1,24 @@
+.line-fix-1 {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.line-fix-2 {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.section-discription__heading-fix {
+  font-family: $secondary-font-stack;
+  font-weight: $bold-font-size;
+  font-size: $headings-size;
+  text-align: center;
+  text-transform: uppercase;
+  color: color(secondary);
+  line-height: 1.5;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

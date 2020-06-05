@@ -1,0 +1,32 @@
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+}
+.footer {
+  &__text {
+    font-family: $primary-font-stack;
+    font-size: $info-size;
+    font-weight: $regular-font-size;
+    color: color(primary);
+    padding-top: 15px;
+    padding-left: 10px;
+
+    &-paragraph {
+      @include column-flex($type: 'all');
+    }
+    &-span::before {
+      @include pseudo($content: '\A9');
+      margin-right: 2px;
+    }
+    @media (min-width: 768px) {
+      padding-top: 22px;
+      &-paragraph {
+        @include column-flex($type: 'ver');
+        flex-direction: inherit;
+      }
+    }
+  }
+}
