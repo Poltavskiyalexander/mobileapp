@@ -1,9 +1,10 @@
 .section-discription {
-  padding-top: 115px;
+  padding-top: 60px;
   &__heading {
     font-family: $secondary-font-stack;
     font-weight: $bold-font-size;
     font-size: $headings-size;
+    line-height: 1.5;
     text-align: center;
     text-transform: uppercase;
     color: color(secondary);
@@ -36,9 +37,13 @@
     text-align: center;
     color: color(primary-text);
     padding-top: 35px;
+
     @media (min-width: 768px) {
       font-size: $headings-size;
     }
+  }
+  @media (min-width: 1200px) {
+    padding-top: 90px;
   }
 }
 .text-width {

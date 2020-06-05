@@ -1,6 +1,5 @@
 .blok-forma {
-  display: flex;
-  justify-content: space-between;
+  @include between-flex($type: 'hor');
 
   & * {
     z-index: 1;
@@ -14,7 +13,6 @@
   &__row {
     display: flex;
     flex-direction: column;
-    // @include column-flex($type: 'all');
     @media (min-width: 768px) {
       flex-direction: inherit;
       justify-content: space-between;

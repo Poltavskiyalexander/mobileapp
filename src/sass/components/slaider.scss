@@ -46,8 +46,11 @@
       position: absolute;
       top: 5px;
       left: -10px;
+      @media (min-width: 768px) {
+        left: 30px;
+      }
       @media (min-width: 1200px) {
-        left: 70px;
+        left: 110px;
       }
     }
   }
