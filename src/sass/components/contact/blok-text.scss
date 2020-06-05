@@ -1,14 +1,35 @@
-.blok-text__sub{
+.blok-text {
+  @include center-flex($type: 'all');
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 40px;
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+    width: 420px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 0;
+  }
+
+  &__subtitl {
+    padding-bottom: 40px;
+  }
+  &__sub {
     font-family: $secondary-font-stack;
-    font-size: 24px;
+    font-size: $info-headings-size;
     font-weight: $regular-font-size;
     color: color(primary);
-}
-.blok-text__text {
-    max-width: 420px;
-    font-family:$primary-font-stack;
-    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  &__text {
+    // width: 420px;
+    font-family: $primary-font-stack;
+    font-size: $info-size;
     font-weight: $regular-font-size;
-    color: color(pseudo-element-line);
-    margin-bottom: 40px;
+    color: color(primary);
+    opacity: 0.5;
+    //   margin-bottom: 40px;
+  }
 }

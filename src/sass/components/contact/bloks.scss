@@ -1,5 +1,14 @@
 .bloks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-top: 40px;
+  @media (min-width: 1200px) {
     display: flex;
-    margin-top: 125px;
     justify-content: space-between;
+    flex-direction: inherit;
+    align-items: baseline;
+    padding-top: 120px;
+  }
 }

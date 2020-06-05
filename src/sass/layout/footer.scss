@@ -1,11 +1,32 @@
-footer{
-    position: absolute;
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
 }
-.footer__text {     
-    font-family:'Open Sans';
-    font-size: 14px;
-    font-weight: 400;
-    color: #838383;
-    margin: -40px 0px;
-    margin-left: 110px;
+.footer {
+  &__text {
+    font-family: $primary-font-stack;
+    font-size: $info-size;
+    font-weight: $regular-font-size;
+    color: color(primary);
+    padding-top: 15px;
+    padding-left: 10px;
+
+    &-paragraph {
+      @include column-flex($type: 'all');
+    }
+    &-span::before {
+      @include pseudo($content: '\A9');
+      margin-right: 2px;
+    }
+    @media (min-width: 768px) {
+      padding-top: 22px;
+      &-paragraph {
+        @include column-flex($type: 'ver');
+        flex-direction: inherit;
+      }
+    }
+  }
 }
