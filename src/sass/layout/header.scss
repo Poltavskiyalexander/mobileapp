@@ -1,6 +1,6 @@
 .header {
   background-color: color(primary);
-  position: fixed;
+  position: absolute;
   top: 20px;
   left: 0;
   right: 0;
@@ -21,6 +21,9 @@
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+}
+.nav__item:not(:last-child) {
+margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -72,6 +75,8 @@
     left: 50%;
     transform: translate(-50%, 25%);
     text-align: center;
+    padding-top: 30px;
+    margin-top: -30px;
   }
 }
 
