@@ -1,16 +1,14 @@
 .bloks {
-  //   @include center-flex($type: 'all');
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
   align-items: center;
-  // display: flex;
-  // margin-top: 125px;
-  // justify-content: space-between;
+  padding-top: 40px;
   @media (min-width: 1200px) {
-    // @include between-flex($type: 'all');
     display: flex;
     justify-content: space-between;
     flex-direction: inherit;
+    align-items: baseline;
+    padding-top: 120px;
   }
 }

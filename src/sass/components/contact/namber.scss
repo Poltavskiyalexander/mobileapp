@@ -1,14 +1,33 @@
-.namber {
+.info-namber {
+  @include column-flex($type: 'all');
+  padding-top: 20px;
+  padding-bottom: 40px;
+  &__namber {
     font-family: $primary-font-stack;
     font-size: 14px;
     font-weight: $bold-font-size;
     color: color(contact-info-color);
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-.namber-name {
+    // margin-top: 30px;
+    // margin-bottom: 15px;
+  }
+  &__namber-name {
     font-family: $primary-font-stack;
     font-size: 14px;
     font-weight: $bold-font-size;
-    color:color(contact-info-color);
+    color: color(contact-info-color);
+  }
 }
+// .namber {
+//     font-family: $primary-font-stack;
+//     font-size: 14px;
+//     font-weight: $bold-font-size;
+//     color: color(contact-info-color);
+//     margin-top: 30px;
+//     margin-bottom: 15px;
+// }
+// .namber-name {
+//     font-family: $primary-font-stack;
+//     font-size: 14px;
+//     font-weight: $bold-font-size;
+//     color:color(contact-info-color);
+// }

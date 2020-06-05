@@ -2,6 +2,16 @@
   @include center-flex($type: 'all');
   flex-wrap: wrap;
   text-align: center;
+  padding-top: 40px;
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+    width: 420px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 0;
+  }
 
   &__subtitl {
     padding-bottom: 40px;
