@@ -15,12 +15,21 @@
 }
 
 // анимация на навигации
+
+
+
+
+
+
 .nav__item {
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+
+
+
 
   &:not(:last-child) {
     margin-bottom: 20px;
@@ -35,7 +44,12 @@
   .nav__item:hover {
     background-size: 100% 2px;
   }
+  .nav__item {
+    background-color:color(secondary);
+    border-radius: 10px;
+    width: 200%;
 
+  }
   .header__burger {
     display: block;
     position: relative;
@@ -83,9 +97,11 @@
     transform: translate(-50%, 25%);
     text-align: center;
     padding-top: 30px;
-    margin-top: -30px;
+    margin-top: -30px ;
   }
 }
+
+
 
 .header__burger:hover .nav__list {
   display: block;
