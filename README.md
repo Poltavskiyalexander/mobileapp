@@ -99,6 +99,7 @@ npm run build
 
 ```shell
 npm run deploy
+
 ```
 
 Если нет ошибок в коде и свойство `homepage` указано верно, запустится сборка
