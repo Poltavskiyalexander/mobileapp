@@ -21,9 +21,13 @@
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
-}
-.nav__item:not(:last-child) {
-margin-bottom: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+    @media (min-width: 768px) {
+      margin-bottom: 0px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -38,6 +42,7 @@ margin-bottom: 20px;
     width: 30px;
     height: 20px;
     margin-left: auto;
+
     & span {
       background-color: black;
       position: absolute;
@@ -60,6 +65,7 @@ margin-bottom: 20px;
     &::before {
       top: 0;
     }
+
     &::after {
       bottom: 0;
     }
@@ -68,6 +74,7 @@ margin-bottom: 20px;
   .nav {
     position: relative;
   }
+
   .nav__list {
     display: none;
     position: absolute;
@@ -93,6 +100,7 @@ margin-bottom: 20px;
   .nav__item:not(:last-child) {
     margin-right: 45px;
   }
+
   .logo {
     font-size: 30px;
   }
