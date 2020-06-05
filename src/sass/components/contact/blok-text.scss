@@ -11,6 +11,7 @@
 
   @media (min-width: 1200px) {
     padding-top: 0;
+    align-items: flex-start;
   }
 
   &__subtitl {
@@ -22,6 +23,9 @@
     font-weight: $regular-font-size;
     color: color(primary);
     padding-bottom: 20px;
+    @media (min-width: 1200px) {
+      text-align: left;
+    }
   }
   &__text {
     // width: 420px;
@@ -31,5 +35,8 @@
     color: color(primary);
     opacity: 0.5;
     //   margin-bottom: 40px;
+    @media (min-width: 1200px) {
+      text-align: left;
+    }
   }
 }
