@@ -2,6 +2,7 @@
   &-say {
     position: relative;
   }
+
   &__list {
     padding-top: 50px;
   }
@@ -25,6 +26,7 @@
     width: 100%;
     height: auto;
   }
+
   &__paragraph {
     padding: 30px 40px 0;
 
@@ -36,13 +38,14 @@
       padding-left: 130px;
     }
     position: relative;
+
     &::after {
       @include pseudo($content: '“');
       font-size: 150px;
       color: #efefef;
       position: absolute;
       top: 5px;
-      left: -5px;
+      left: -10px;
       @media (min-width: 1200px) {
         left: 70px;
       }
@@ -69,6 +72,7 @@
       opacity: 0.2;
     }
   }
+
   &__radio input:checked + label::before {
     background-color: color(secondary);
     border: 2px solid color(secondary);
