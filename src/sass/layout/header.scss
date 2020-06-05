@@ -15,12 +15,21 @@
 }
 
 // анимация на навигации
+
+
+
+
+
+
 .nav__item {
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
   transition: background-size 0.3s;
+
+
+
 
   &:not(:last-child) {
     margin-bottom: 20px;
@@ -86,6 +95,13 @@
     margin-top: -30px;
   }
 }
+.nav__item {
+  background-color:color(secondary);
+  border-radius: 10px;
+  width: 200%;
+
+}
+
 
 .header__burger:hover .nav__list {
   display: block;

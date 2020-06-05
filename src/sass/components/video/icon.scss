@@ -18,9 +18,12 @@
   margin-right: 15px;
 }
 
-.icon__apple-1 {
-  display: inline-block;
-  position: absolute;
+.icon__apple-1,
+.icon__android-1 {
+
+  width: 30px;
+  height: 35px;
+
 }
 
 .icon__android {
@@ -32,9 +35,4 @@
   background-color: color(btn-round-video);
   border-radius: 50%;
   align-items: center;
-}
-
-.icon__android-1 {
-  display: inline-block;
-  position: absolute;
 }
