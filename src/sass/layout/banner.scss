@@ -7,11 +7,13 @@
   padding-bottom: 105px;
   position: relative;
 }
+
 .banner__head {
   color: color(primary);
   font-size: 18px;
   font-family: $primary-font-stack;
   font-weight: $bold-font-size;
+
   & h2 {
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
@@ -26,10 +28,12 @@
   font-size: 12px;
   margin-top: 30px;
 }
+
 .pe-7s-angle-right {
   font-size: 32px;
   vertical-align: middle;
 }
+
 .banner__btn {
   width: 211px;
   height: 48px;
@@ -46,6 +50,7 @@
   position: relative;
   margin-left: 30px;
   color: color(primary);
+
   &--icon::before {
     content: '';
     position: absolute;
@@ -105,13 +110,16 @@
   .banner__head h2 {
     font-size: 42px;
   }
+
   .banner__head span {
     font-size: 22px;
   }
+
   .banner__link {
     font-size: 16px;
     margin-top: 50px;
   }
+
   .banner {
     background-image: url(../images/banner/banner_tablet.jpg);
     padding-top: 280px;
@@ -142,18 +150,22 @@
     bottom: -85px;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 button {
   border: none;
   outline: none;
 }
+
 ul,
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }

@@ -1,16 +1,21 @@
 .watch__titl {
-    font-family: $secondary-font-stack;
-    font-weight: $bold-font-size;
-    font-size: 28px;
-    text-transform: uppercase;
-    margin-bottom: 25px;
+  font-family: $secondary-font-stack;
+  font-weight: $bold-font-size;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding-top: 60px;
+  text-align: center;
 }
 
 .watch__text {
-    max-width: 540px;
-    font-family:$primary-font-stack;
-    font-weight: $regular-font-size;
-    font-size: 16px;
-    color: color(primary);
-    margin-bottom: 30px;
+  max-width: 540px;
+  font-family: $primary-font-stack;
+  font-weight: $regular-font-size;
+  font-size: 16px;
+  line-height: 1.6;
+  color: color(primary);
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0 20px 20px;
 }
