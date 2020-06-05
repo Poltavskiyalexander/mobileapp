@@ -34,6 +34,19 @@
   }
 }
 
+@mixin column-flex($type: 'all') {
+  display: flex;
+
+  @if $type== 'all' {
+    flex-direction: column;
+    align-items: flex-start;
+  } @else if $type== 'hor' {
+    flex-direction: column;
+  } @else if $type== 'ver' {
+    align-items: flex-start;
+  }
+}
+
 @mixin between-flex($type: 'all') {
   display: flex;
 
