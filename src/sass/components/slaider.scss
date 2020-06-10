@@ -1,8 +1,14 @@
-.slider {
+#slider {
   &-say {
     position: relative;
-  }
 
+    @media (min-width: 1200px) {
+      margin-top: -80px;
+      margin-bottom: 20px;
+    }
+  }
+}
+.slider {
   &__list {
     padding-top: 50px;
   }
@@ -59,7 +65,9 @@
 .btn-box {
   @include center-flex($type: 'all');
   padding-top: 60px;
-  padding-bottom: 115px;
+  @media (min-width: 1200px) {
+    padding-bottom: 20px;
+  }
 
   &__radio label {
     cursor: pointer;

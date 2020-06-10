@@ -1,14 +1,15 @@
-.icon {
-  &__list {
-    @include between-flex($type: 'all');
-    padding-bottom: 60px;
-    @media (min-width: 1200px) {
-      background-image: url(../images/foto/screen-min.png);
-      @include icon;
-      background-position: center;
-      margin-top: 80px;
-      height: 790px;
-    }
+.icon-list {
+  @include between-flex($type: 'all');
+  @media (min-width: 768px) {
+    padding-top: 30px;
+  }
+  @media (min-width: 1200px) {
+    background-image: url(../images/foto/screen-min.png);
+    @include icon;
+    background-position: center;
+    margin-top: 80px;
+    height: 790px;
+    margin-bottom: -50px;
   }
 
   &__discription {
@@ -45,34 +46,4 @@
     position: absolute;
     left: 0px;
   }
-
-  // &__key {
-  //   &::before {
-  //     @include pseudo;
-  //     @include icon;
-  //     height: 32px;
-  //     width: 32px;
-  //     position: absolute;
-  //     left: 0px;
-  //   }
-
-  // &--board::before {
-  //   background-image: url('../images/icon-png/i-board.png');
-  // }
-  // &--device-hub::before {
-  //   background-image: url('../images/icon-png/i-hub.png');
-  // }
-  // &--thumb-up::before {
-  //   background-image: url('../images/icon-png/i-thumb.png');
-  // }
-  // &--star::before {
-  //   background-image: url('../images/icon-png/i-star.png');
-  // }
-  // &--notification::before {
-  //   background-image: url('../images/icon-png/i-bell.png');
-  // }
-  // &--share::before {
-  //   background-image: url('../images/icon-png/i-share.png');
-  // }
-  // }
 }
