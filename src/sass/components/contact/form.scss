@@ -1,11 +1,11 @@
-.blok-forma {
+.contact-forma {
   @include between-flex($type: 'hor');
 
   & * {
     z-index: 1;
   }
 }
-.blok-forma fieldset {
+.contact-forma fieldset {
   border: none;
 }
 
