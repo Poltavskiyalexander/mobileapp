@@ -6,7 +6,6 @@
   padding-top: 190px;
   padding-bottom: 105px;
   position: relative;
-
 }
 
 .banner__head {
@@ -51,7 +50,6 @@
   position: relative;
   margin-left: 30px;
   color: color(primary);
-
 }
 
 .banner--img-01 {
@@ -129,7 +127,7 @@
     right: 210px;
     bottom: -90px;
     & img {
-      @extend %img ;
+      // @extend %img ;
     }
   }
 
@@ -140,7 +138,7 @@
     bottom: -85px;
   }
   & img {
-    @extend %img ;
+    // @extend %img ;
   }
 }
 .banner__btn--icon {
