@@ -1,11 +1,9 @@
 .card {
-  &__list {
-    @include between-flex($type: 'ver');
-    justify-content: space-evenly;
+  @include between-flex($type: 'ver');
+  justify-content: space-evenly;
 
-    @media (min-width: 1200px) {
-      @include between-flex($type: 'all');
-    }
+  @media (min-width: 1200px) {
+    @include between-flex($type: 'all');
   }
 
   &__item {
