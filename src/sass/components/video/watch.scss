@@ -59,8 +59,10 @@
   @media (min-width: 1200px) {
     margin: 0 0 0 auto;
   }
-}
 
-.vidioplay video {
-  display: block;
+  & video {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
