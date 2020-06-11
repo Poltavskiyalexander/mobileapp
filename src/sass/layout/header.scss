@@ -1,4 +1,4 @@
-.header {
+#header {
   background-color: color(primary);
   position: absolute;
   top: 20px;
@@ -41,7 +41,7 @@
     border-radius: 10px;
     width: 100px;
   }
-  .header__burger {
+  .burger {
     display: block;
     position: relative;
     width: 30px;
@@ -93,7 +93,7 @@
   }
 }
 
-.header__burger:hover .nav__list {
+.burger:hover .nav__list {
   display: block;
 }
 

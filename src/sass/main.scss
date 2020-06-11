@@ -9,12 +9,10 @@
 @import 'base/pe-icon-7-stroke';
 
 // Импортируем компоненты
-@import 'components/contact/contact.scss';
-@import 'components/contact/bloks.scss';
-@import 'components/contact/blok-text.scss';
+@import 'components/contact/contact-wrap.scss';
+@import 'components/contact/contact-text.scss';
 @import 'components/contact/form.scss';
-@import 'components/contact/forma-slaider.scss';
-@import 'components/contact/hr.scss';
+@import 'components/contact/contact.scss';
 @import 'components/contact/icon-form.scss';
 @import 'components/video/icon.scss';
 @import 'components/contact/namber.scss';
@@ -23,14 +21,13 @@
 @import 'components/contact/btnn.scss';
 @import 'components/fix.scss';
 
-// @import 'components/btn';
+// // @import 'components/btn';
 @import 'components/logo';
 @import 'components/nav__list';
 @import 'components/section-description';
 @import 'components/icon.scss';
 @import 'components/team.scss';
 @import 'components/slaider.scss';
-@import 'components/burger';
 
 // Импортируем слои документа
 @import 'layout/common';

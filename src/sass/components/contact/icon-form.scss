@@ -2,6 +2,10 @@
   display: flex;
   max-width: 160px;
   height: 50px;
+
+  & svg {
+    height: 20px;
+  }
 }
 .icon-form__facebook {
   @include center-flex($type: 'all');

@@ -1,5 +1,6 @@
 .section-discription {
-  padding-top: 60px;
+  // padding-top: 60px;
+
   &__heading {
     font-family: $secondary-font-stack;
     font-weight: $bold-font-size;
@@ -41,9 +42,6 @@
     @media (min-width: 768px) {
       font-size: $headings-size;
     }
-  }
-  @media (min-width: 1200px) {
-    padding-top: 90px;
   }
 }
 .text-width {

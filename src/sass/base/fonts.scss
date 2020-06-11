@@ -20,7 +20,7 @@
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: 700;
-  src: local('Open Sans Bold') local('OpenSans-Bold'),
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
     url('../fonts//OpenSans-Bold.woff2') format('woff2'),
     url('../fonts//OpenSans-Bold.woff') format('woff');
 }
@@ -52,9 +52,8 @@
     url('../fonts/Raleway-Bold.woff') format('woff');
 }
 @font-face {
-	font-family: 'Pe-icon-7-stroke';
-	src:
-		url('/src/fonts/Pe-icon-7-stroke.ttf') format('woff');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Pe-icon-7-stroke';
+  src: url('/src/fonts/Pe-icon-7-stroke.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
