@@ -1,4 +1,4 @@
-.banner {
+#banner {
   background-image: url(../images/banner/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -6,6 +6,7 @@
   padding-top: 190px;
   padding-bottom: 105px;
   position: relative;
+
 }
 
 .banner__head {
@@ -51,20 +52,6 @@
   margin-left: 30px;
   color: color(primary);
 
-  &--icon::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-repeat: no-repeat;
-    background-image: url(../images/banner/banner_icon.png);
-    height: 24px;
-    width: 36px;
-    filter: brightness(0) invert(1);
-    transform: translate(60%, 40%);
-  }
 }
 
 .banner--img-01 {
@@ -120,7 +107,7 @@
     margin-top: 50px;
   }
 
-  .banner {
+  #banner {
     background-image: url(../images/banner/banner_tablet.jpg);
     padding-top: 280px;
     padding-bottom: 150px;
@@ -128,7 +115,7 @@
 }
 
 @media (min-width: 1200px) {
-  .banner {
+  #banner {
     background-image: url(../images/banner/banner_desktop.jpg);
   }
 
@@ -141,6 +128,9 @@
     height: 563px;
     right: 210px;
     bottom: -90px;
+    & img {
+      @extend %img ;
+    }
   }
 
   .banner--img-02 {
@@ -148,6 +138,9 @@
     height: 622px;
     right: 110px;
     bottom: -85px;
+  }
+  & img {
+    @extend %img ;
   }
 }
 .banner__btn--icon {
