@@ -30,6 +30,12 @@ ol {
   list-style: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .container {
   // background-color: rgb(241, 206, 139);
   max-width: $mobile-max-width-container;
@@ -43,5 +49,12 @@ ol {
   @media (min-width: 1200px) {
     max-width: $desktop-max-width-container;
     padding: 0 $desktop-padding-container;
+  }
+}
+
+section {
+  padding: 60px 0;
+  @media (min-width: 768px) {
+    padding: 100px 0;
   }
 }
