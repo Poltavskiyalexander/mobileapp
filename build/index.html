@@ -16,38 +16,39 @@
       <header id="header">
         <div class="container">
           <div class="header__wrapp">
-            <div class="logo">
+            <a class="logo" href="http://localhost:1234">
+              <!-- href="https://poltavskiyalexander.github.io/mobileapp/build/" -->
               Mobileapp
-            </div>
+            </a>
             <div class="burger">
               <span></span>
       
               <nav class="nav nav--burger">
                 <ul class="nav__list">
-                  <li class="nav__item"><a class="nav__link" href="#">home</a></li>
+                  <li class="nav__item"><a class="nav__link" href="#banner">home</a></li>
                   <li class="nav__item">
-                    <a class="nav__link" href="#">features</a>
+                    <a class="nav__link" href="#key-features">features</a>
                   </li>
-                  <li class="nav__item"><a class="nav__link" href="#">team</a></li>
+                  <li class="nav__item"><a class="nav__link" href="#card-team">team</a></li>
                   <li class="nav__item">
-                    <a class="nav__link" href="#">testimonails</a>
+                    <a class="nav__link" href="#slider-say">testimonails</a>
                   </li>
-                  <li class="nav__item"><a class="nav__link" href="#">contact</a></li>
+                  <li class="nav__item"><a class="nav__link" href="#contact">contact</a></li>
                 </ul>
               </nav>
             </div>
       
             <nav class="nav">
               <ul class="nav__list">
-                <li class="nav__item"><a class="nav__link" href="#">home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#banner">home</a></li>
                 <li class="nav__item">
-                  <a class="nav__link" href="#">features</a>
+                  <a class="nav__link" href="#key-features">features</a>
                 </li>
-                <li class="nav__item"><a class="nav__link" href="#">team</a></li>
+                <li class="nav__item"><a class="nav__link" href="#card-team">team</a></li>
                 <li class="nav__item">
-                  <a class="nav__link" href="#">testimonails</a>
+                  <a class="nav__link" href="#slider-say">testimonails</a>
                 </li>
-                <li class="nav__item"><a class="nav__link" href="#">contact</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">contact</a></li>
               </ul>
             </nav>
           </div>
@@ -69,14 +70,13 @@
                 </li>
                 <li><i class="pe-7s-angle-right"></i>Praesent rutrum ac nunc et</li>
               </ul>
+              <a class="banner__btn" href="#">
+                <svg class="banner__btn--icon">
+                  <use xlink:href="images/sprite.svg#cloud-download"></use>
+                </svg>
+                Download</a
+              >
             </div>
-        
-            <a class="banner__btn" href="#">
-              <svg class="banner__btn--icon">
-                <use xlink:href="images/sprite.svg#cloud-download"></use>
-              </svg>
-              Download</a
-            >
         
             <div class="banner__img">
               <div class="banner--img-01">
@@ -251,17 +251,29 @@
                         </p>
                       </div>
                       <div class="card__foto-icon">
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#facebook"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#twitter"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.linkedin.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#linkedin"></use>
                           </svg>
@@ -281,7 +293,7 @@
                   </div>
                 </div>
                 <div class="card__foto-footer">
-                  <a href="#" class="card__foto-footer--name">Jon Doe</a>
+                  <h4 href="#" class="card__foto-footer--name">Jon Doe</h4>
                   <p class="card__foto-footer--occupation">Lead Designer</p>
                 </div>
               </li>
@@ -299,17 +311,29 @@
                         </p>
                       </div>
                       <div class="card__foto-icon">
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#facebook"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#twitter"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.linkedin.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#linkedin"></use>
                           </svg>
@@ -329,7 +353,7 @@
                   </div>
                 </div>
                 <div class="card__foto-footer">
-                  <a href="" class="card__foto-footer--name">Jon Doe</a>
+                  <h4 href="" class="card__foto-footer--name">Jon Doe</h4>
                   <p class="card__foto-footer--occupation">Lead Designer</p>
                 </div>
               </li>
@@ -347,17 +371,29 @@
                         </p>
                       </div>
                       <div class="card__foto-icon">
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#facebook"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#twitter"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.linkedin.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#linkedin"></use>
                           </svg>
@@ -377,7 +413,7 @@
                   </div>
                 </div>
                 <div class="card__foto-footer">
-                  <a href="" class="card__foto-footer--name">Jon Doe</a>
+                  <h4 href="" class="card__foto-footer--name">Jon Doe</h4>
                   <p class="card__foto-footer--occupation">Lead Designer</p>
                 </div>
               </li>
@@ -395,17 +431,29 @@
                         </p>
                       </div>
                       <div class="card__foto-icon">
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#facebook"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#twitter"></use>
                           </svg>
                         </a>
-                        <a href="#" class="card__foto-overlay-icon">
+                        <a
+                          href="https://www.linkedin.com/"
+                          target="_blank"
+                          class="card__foto-overlay-icon"
+                        >
                           <svg width="32px" height="32px" class="icon">
                             <use href="images/sprite.svg#linkedin"></use>
                           </svg>
@@ -425,7 +473,7 @@
                   </div>
                 </div>
                 <div class="card__foto-footer">
-                  <a href="" class="card__foto-footer--name">Jon Doe</a>
+                  <h4 href="" class="card__foto-footer--name">Jon Doe</h4>
                   <p class="card__foto-footer--occupation">Lead Designer</p>
                 </div>
               </li>
@@ -463,7 +511,7 @@
                   </div>
                 </div>
                 <div class="card__foto-footer">
-                  <a href="#" class="card__foto-footer--name">Jon Doe</a>
+                  <h4 href="#" class="card__foto-footer--name">Jon Doe</h4>
                   <p class="card__foto-footer--occupation">Company Inc.</p>
                 </div>
                 <div class="slider__paragraph">
@@ -544,25 +592,50 @@
                   </p>
                 </div>
                 <div class="icon-form">
-                  <div class="icon-form__facebook">
+                  <a
+                    class="icon-form__facebook"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <svg>
                       <use xlink:href="images/sprite.svg#facebook"></use>
                     </svg>
-                  </div>
-                  <div class="icon-form__twitter">
+                  </a>
+        
+                  <a
+                    class="icon-form__twitter"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <svg>
                       <use xlink:href="images/sprite.svg#twitter"></use>
                     </svg>
-                  </div>
-                  <div class="icon-form__linkedin">
+                  </a>
+        
+                  <a
+                    class="icon-form__linkedin"
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
                     <svg>
                       <use xlink:href="images/sprite.svg#linkedin"></use>
                     </svg>
-                  </div>
+                  </a>
                 </div>
                 <div class="info-namber">
-                  <span class="info-namber__namber">+XX-XXXX - XXXX - XX</span>
-                  <span class="info-namber__namber-name">goiteens@gmail.com</span>
+                  <a class="info-namber__namber" href="tel:+XX-XXXX - XXXX - XX"
+                    >+XX-XXXX - XXXX - XX</a
+                  >
+                  <a
+                    class="info-namber__namber-name"
+                    href="mailto:goiteens@gmail.com?subject=access%20from%20the%20site&body=I%20am%20contacting%20you%20about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >goiteens@gmail.com</a
+                  >
                 </div>
               </div>
               <div class="contact-forma">
@@ -574,7 +647,11 @@
                         <input type="email" placeholder="Email" required name="email" />
                       </div>
                       <div class="form__textaria">
-                        <textarea placeholder="Message"></textarea>
+                        <textarea
+                          placeholder="Message"
+                          required
+                          name="message"
+                        ></textarea>
                       </div>
                       <div class="btn">
                         <button type="submit">Submit</button>

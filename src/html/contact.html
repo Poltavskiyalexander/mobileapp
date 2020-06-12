@@ -15,25 +15,50 @@
           </p>
         </div>
         <div class="icon-form">
-          <div class="icon-form__facebook">
+          <a
+            class="icon-form__facebook"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <svg>
               <use xlink:href="images/sprite.svg#facebook"></use>
             </svg>
-          </div>
-          <div class="icon-form__twitter">
+          </a>
+
+          <a
+            class="icon-form__twitter"
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <svg>
               <use xlink:href="images/sprite.svg#twitter"></use>
             </svg>
-          </div>
-          <div class="icon-form__linkedin">
+          </a>
+
+          <a
+            class="icon-form__linkedin"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <svg>
               <use xlink:href="images/sprite.svg#linkedin"></use>
             </svg>
-          </div>
+          </a>
         </div>
         <div class="info-namber">
-          <span class="info-namber__namber">+XX-XXXX - XXXX - XX</span>
-          <span class="info-namber__namber-name">goiteens@gmail.com</span>
+          <a class="info-namber__namber" href="tel:+XX-XXXX-XXXX-XX"
+            >+XX-XXXX - XXXX - XX</a
+          >
+          <a
+            class="info-namber__namber-name"
+            href="mailto:goiteens@gmail.com?subject=access%20from%20the%20site&body=I%20am%20contacting%20you%20about"
+            target="_blank"
+            rel="noopener noreferrer"
+            >goiteens@gmail.com</a
+          >
         </div>
       </div>
       <div class="contact-forma">
@@ -45,7 +70,11 @@
                 <input type="email" placeholder="Email" required name="email" />
               </div>
               <div class="form__textaria">
-                <textarea placeholder="Message"></textarea>
+                <textarea
+                  placeholder="Message"
+                  required
+                  name="message"
+                ></textarea>
               </div>
               <div class="btn">
                 <button type="submit">Submit</button>

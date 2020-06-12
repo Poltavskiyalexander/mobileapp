@@ -1,6 +1,6 @@
 #header {
   background-color: color(primary);
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 0;
   right: 0;
@@ -16,31 +16,34 @@
 
 // анимация на навигации
 
-.nav__item {
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size 0.3s;
+// .nav__item {
+//   background-image: linear-gradient(currentColor, currentColor);
+//   background-position: 0% 100%;
+//   background-repeat: no-repeat;
+//   background-size: 0% 2px;
+//   transition: background-size 0.3s;
 
-  &:not(:last-child) {
-    margin-bottom: 10px;
-    @media (min-width: 768px) {
-      margin-bottom: 0px;
-    }
-  }
-}
+//   &:not(:last-child) {
+//     margin-bottom: 10px;
+//     @media (min-width: 768px) {
+//       margin-bottom: 0px;
+//     }
+//   }
+// }
 
 @media (max-width: 767px) {
   // анимация на навигации
-  .nav__item:hover {
-    background-size: 100% 2px;
-  }
-  .nav__item {
-    background-color: color(secondary);
-    border-radius: 10px;
-    width: 100px;
-  }
+
+  // .nav__item:hover {
+  //   background-size: 100% 2px;
+  // }
+
+  // .nav__item {
+  //   background-color: color(secondary);
+  //   border-radius: 10px;
+  //   width: 100px;
+  // }
+
   .burger {
     display: block;
     position: relative;
@@ -80,17 +83,17 @@
     position: relative;
   }
 
-  .nav__list {
-    display: none;
-    position: absolute;
-    // width: 100%;
-    left: 50%;
-    transform: translate(-50%, 25%);
-    text-align: center;
-    padding-top: 30px;
-    margin-top: -30px;
-    transform: translate(-85px, 30px);
-  }
+  // .nav__list {
+  //   display: none;
+  //   position: absolute;
+  //   // width: 100%;
+  //   left: 50%;
+  //   transform: translate(-50%, 25%);
+  //   text-align: center;
+  //   padding-top: 30px;
+  //   margin-top: -30px;
+  //   transform: translate(-85px, 30px);
+  // }
 }
 
 .burger:hover .nav__list {
@@ -98,14 +101,14 @@
 }
 
 @media (min-width: 768px) {
-  .nav__list {
-    display: flex;
-    justify-content: space-between;
-  }
+  // .nav__list {
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
 
-  .nav__item:not(:last-child) {
-    margin-right: 45px;
-  }
+  // .nav__item:not(:last-child) {
+  //   margin-right: 45px;
+  // }
 
   .logo {
     font-size: 30px;
@@ -117,7 +120,7 @@
 }
 
 @media (min-width: 1400px) {
-  .nav__item {
-    font-size: 13px;
-  }
+  // .nav__item {
+  //   font-size: 13px;
+  // }
 }
