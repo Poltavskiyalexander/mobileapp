@@ -18,11 +18,14 @@
   #{$attribute}: $color;
 }
 
-$main: #1184f0;
+// $main: #1184f0;
 // $main: #1ab798;
+$main: #1ab798;
 $text: #fefefe;
 // $text: color(primary-text);
 $contrast: darken($main, 10%);
+// $contrast: #1ab798;
+
 $burgerlink: color(primary-text);
 $burgerlinkhover: $text;
 $burger-height: 20px;
@@ -48,7 +51,7 @@ $burger-font-weight: $bold-font-size;
   /* ie workaround */
   -ms-transform: translatex(-100vw);
   box-sizing: border-box;
-  pointer-events: none;
+  // pointer-events: none;
   padding-top: 125px;
   transition: width 475ms ease-out, transform 450ms ease,
     border-radius 0.8s 0.1s ease;
@@ -65,13 +68,13 @@ $burger-font-weight: $bold-font-size;
     padding: 0;
     overflow: auto;
     overflow-x: hidden;
-    pointer-events: auto;
+    // pointer-events: auto;
   }
 
   li {
     list-style: none;
     text-transform: uppercase;
-    pointer-events: auto;
+    // pointer-events: auto;
     white-space: nowrap;
     box-sizing: border-box;
     transform: translatex(100vw);
@@ -166,14 +169,14 @@ label.hamburger {
     cursor: pointer;
   }
 
-  text {
+  span {
     close,
     open {
       text-transform: uppercase;
       font-size: 0.8em;
-      align-text: center;
+      // align-text: center;
       position: absolute;
-      transform: translateY(50px);
+      transform: translateY($burger-height + 10);
       text-align: center;
       overflow: hidden;
       transition: width 0.25s 0.35s, color 0.45s 0.35s;
@@ -186,7 +189,7 @@ label.hamburger {
     }
 
     open {
-      color: $text;
+      color: $burgerlink;
       width: 100%;
     }
   }
@@ -198,7 +201,7 @@ label.hamburger {
     top: 50%;
     // background-color: $text;
     background-color: $burgerlink;
-    pointer-events: auto;
+    // pointer-events: auto;
     // transition-duration: 0.35s;
     // transition-delay: 0.35s;
 
@@ -231,16 +234,4 @@ label.hamburger {
   top: 60px;
   right: 15px;
   transform: translate(0, -50%);
-}
-
-/**  SCROLLBAR STYLE FOR IE **/
-body {
-  scrollbar-base-color: rgb(19, 138, 114);
-  scrollbar-3dlight-color: #fff;
-  scrollbar-highlight-color: #1abc9c;
-  scrollbar-track-color: #fff;
-  scrollbar-arrow-color: #1abc9c;
-  scrollbar-shadow-color: #1abc9c;
-  scrollbar-dark-shadow-color: #1abc9c;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
