@@ -16,11 +16,9 @@
       <header id="header">
         <div class="container">
           <div class="header__wrapp">
-            <a
-              href="https://poltavskiyalexander.github.io/mobileapp/build/"
-              target="_blank"
-            >
-              <div class="logo">Mobileapp</div>
+            <a class="logo" href="http://localhost:1234">
+              <!-- href="https://poltavskiyalexander.github.io/mobileapp/build/" -->
+              Mobileapp
             </a>
             <div class="burger">
               <span></span>
@@ -72,14 +70,13 @@
                 </li>
                 <li><i class="pe-7s-angle-right"></i>Praesent rutrum ac nunc et</li>
               </ul>
+              <a class="banner__btn" href="#">
+                <svg class="banner__btn--icon">
+                  <use xlink:href="images/sprite.svg#cloud-download"></use>
+                </svg>
+                Download</a
+              >
             </div>
-        
-            <a class="banner__btn" href="#">
-              <svg class="banner__btn--icon">
-                <use xlink:href="images/sprite.svg#cloud-download"></use>
-              </svg>
-              Download</a
-            >
         
             <div class="banner__img">
               <div class="banner--img-01">
@@ -595,31 +592,50 @@
                   </p>
                 </div>
                 <div class="icon-form">
-                  <div class="icon-form__facebook">
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <svg>
-                        <use xlink:href="images/sprite.svg#facebook"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="icon-form__twitter">
-                    <a href="https://www.twitter.com/" target="_blank">
-                      <svg>
-                        <use xlink:href="images/sprite.svg#twitter"></use>
-                      </svg>
-                    </a>
-                  </div>
-                  <div class="icon-form__linkedin">
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <svg>
-                        <use xlink:href="images/sprite.svg#linkedin"></use>
-                      </svg>
-                    </a>
-                  </div>
+                  <a
+                    class="icon-form__facebook"
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <svg>
+                      <use xlink:href="images/sprite.svg#facebook"></use>
+                    </svg>
+                  </a>
+        
+                  <a
+                    class="icon-form__twitter"
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <svg>
+                      <use xlink:href="images/sprite.svg#twitter"></use>
+                    </svg>
+                  </a>
+        
+                  <a
+                    class="icon-form__linkedin"
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <svg>
+                      <use xlink:href="images/sprite.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </div>
                 <div class="info-namber">
-                  <span class="info-namber__namber">+XX-XXXX - XXXX - XX</span>
-                  <span class="info-namber__namber-name">goiteens@gmail.com</span>
+                  <a class="info-namber__namber" href="tel:+XX-XXXX - XXXX - XX"
+                    >+XX-XXXX - XXXX - XX</a
+                  >
+                  <a
+                    class="info-namber__namber-name"
+                    href="mailto:goiteens@gmail.com?subject=access%20from%20the%20site&body=I%20am%20contacting%20you%20about"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >goiteens@gmail.com</a
+                  >
                 </div>
               </div>
               <div class="contact-forma">
@@ -631,7 +647,11 @@
                         <input type="email" placeholder="Email" required name="email" />
                       </div>
                       <div class="form__textaria">
-                        <textarea placeholder="Message"></textarea>
+                        <textarea
+                          placeholder="Message"
+                          required
+                          name="message"
+                        ></textarea>
                       </div>
                       <div class="btn">
                         <button type="submit">Submit</button>
