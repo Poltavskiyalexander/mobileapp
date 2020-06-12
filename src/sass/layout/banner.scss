@@ -50,6 +50,12 @@
   position: relative;
   margin-left: 30px;
   color: color(primary);
+
+  &:hover .banner__btn--icon {
+    animation-name: hvr-icon-down;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-out;
+  }
 }
 
 .banner--img-01 {

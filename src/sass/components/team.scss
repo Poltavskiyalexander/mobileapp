@@ -47,8 +47,12 @@
         height: 44px;
         background-color: rgba(color(bg-icon-team), 0.3);
 
+        transition-duration: 1.3s;
+        transition-property: box-shadow;
+
         &:hover {
           background-color: color(secondary);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
         }
       }
     }

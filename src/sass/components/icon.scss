@@ -19,6 +19,9 @@
     position: relative;
     text-align: left;
 
+    &:hover .icon-list-key {
+      transform: rotate(360deg);
+    }
     @media (min-width: 1200px) {
       &:nth-child(odd) {
         margin-right: 200px;
@@ -45,5 +48,9 @@
     fill: color(secondary);
     position: absolute;
     left: 0px;
+
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-timing-function: ease-in;
   }
 }
