@@ -10,6 +10,7 @@
     text-transform: uppercase;
     color: color(secondary);
     position: relative;
+
     &::after {
       @include pseudo;
       background-color: color(pseudo-element-line);
@@ -18,6 +19,7 @@
       margin-bottom: 7px;
       margin-left: 15px;
     }
+
     &::before {
       @include pseudo;
       background-color: color(pseudo-element-line);
@@ -44,6 +46,7 @@
     }
   }
 }
+
 .text-width {
   color: color(primary);
 
@@ -55,6 +58,7 @@
     margin-bottom: 7px;
     margin-left: 15px;
   }
+
   &::before {
     @include pseudo;
     background-color: color(primary);
