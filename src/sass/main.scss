@@ -8,7 +8,7 @@
 @import 'base/normalize';
 @import 'base/animation.scss';
 
-// Импортируем компоненты
+// // Импортируем компоненты
 @import 'components/contact/contact-wrap.scss';
 @import 'components/contact/contact-text.scss';
 @import 'components/contact/form.scss';
@@ -20,8 +20,9 @@
 @import 'components/video/watch.scss';
 @import 'components/contact/btnn.scss';
 @import 'components/fix.scss';
-
-// // @import 'components/btn';
+@import 'components/banner/burger2';
+@import 'components/banner/menu';
+// @import 'components/btn';
 @import 'components/logo';
 @import 'components/nav__list';
 @import 'components/section-description';
@@ -29,10 +30,9 @@
 @import 'components/team.scss';
 @import 'components/slaider.scss';
 
-// Импортируем слои документа
+// // Импортируем слои документа
 @import 'layout/common';
 
-// @import 'layout/footer';
+@import 'layout/footer';
 @import 'layout/header';
 @import 'layout/banner';
-@import 'layout/footer.scss';
