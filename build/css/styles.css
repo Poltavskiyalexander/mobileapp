@@ -761,8 +761,7 @@ button[type='submit'] {
   -ms-transform: translatex(-100vw);
   box-sizing: border-box;
   padding-top: 125px;
-  transition: width 475ms ease-out, transform 450ms ease,
- border-radius 0.8s 0.1s ease;
+  transition: width 475ms ease-out, transform 450ms ease, border-radius 0.8s 0.1s ease;
   border-bottom-left-radius: 100vw;
   background-color: #43a28f;
   background-color: rgba(20, 138, 115, 0.8); }
@@ -1489,7 +1488,6 @@ section {
       height: 563px;
       right: 95px; } }
 
-      
 .banner--img-02 {
   width: 170px;
   height: 417px; }

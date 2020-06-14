@@ -191,3 +191,32 @@
     Retina.init(root);
   }
 })();
+"use strict";
+
+console.clear;
+console.log('test');
+var elements = document.querySelectorAll('h2::first-line');
+var _iteratorNormalCompletion = true;
+var _didIteratorError = false;
+var _iteratorError = undefined;
+
+try {
+  for (var _iterator = elements[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+    var elem = _step.value;
+    console.log(elem.innerHTML); // "тест", "пройден"
+    //   if len elem.
+  }
+} catch (err) {
+  _didIteratorError = true;
+  _iteratorError = err;
+} finally {
+  try {
+    if (!_iteratorNormalCompletion && _iterator.return != null) {
+      _iterator.return();
+    }
+  } finally {
+    if (_didIteratorError) {
+      throw _iteratorError;
+    }
+  }
+}
